@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "TicTacToe",
+    "slug": "TicTacToeApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0519"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tictactoe.game"
+    },
+    "android": {
+      "package": "com.tictactoe.game",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0519",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "97f16e53-7b66-4e70-9b50-136313ecacbb"
+      }
+    }
+  }
+}
